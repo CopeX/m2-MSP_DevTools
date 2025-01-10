@@ -20,7 +20,6 @@
 
 namespace MSP\DevTools\Plugin\PhpEnvironment;
 
-use Laminas\Http\PhpEnvironment\Response;
 use Magento\Framework\App\Response\Http as HttpResponse;
 use Magento\Framework\Json\EncoderInterface;
 use MSP\DevTools\Model\CanInjectCode;
@@ -28,11 +27,8 @@ use MSP\DevTools\Model\Config;
 use MSP\DevTools\Model\IsInjectableContentType;
 use MSP\DevTools\Model\PageInfo;
 use Magento\Framework\HTTP\PhpEnvironment\Response;
-use Magento\Framework\Json\EncoderInterface;
 use MSP\DevTools\Model\ElementRegistry;
 use MSP\DevTools\Model\EventRegistry;
-use MSP\DevTools\Model\IsInjectableContentType;
-use MSP\DevTools\Model\PageInfo;
 
 class ResponsePlugin
 {
